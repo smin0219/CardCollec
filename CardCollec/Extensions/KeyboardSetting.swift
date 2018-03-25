@@ -17,14 +17,14 @@ extension UIViewController{
     }
     
     @objc func keyboardShow(){
-    UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            self.view.frame  = CGRect(x: 0, y: -90, width: self.view.frame.width, height: self.view.frame.height)
-        }, completion: nil)
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+                self.view.bounds  = CGRect(x: 0, y: 40, width: self.view.bounds.width, height: self.view.bounds.height)
+            }, completion: nil)
     }
-    
+ 
     @objc func keyboardHide(){
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+            self.view.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height)
         }, completion: nil)
     }
 }

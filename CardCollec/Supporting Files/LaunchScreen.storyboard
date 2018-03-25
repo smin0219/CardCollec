@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainlogo_card" translatesAutoresizingMaskIntoConstraints="NO" id="QG8-DT-58O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_img" translatesAutoresizingMaskIntoConstraints="NO" id="QG8-DT-58O">
                                 <rect key="frame" x="37" y="103.5" width="300" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="8I5-17-sL1"/>
@@ -39,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mainlogo_card" width="300" height="200"/>
+        <image name="launch_img" width="300" height="200"/>
     </resources>
 </document>

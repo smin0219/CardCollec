@@ -12,7 +12,7 @@ class MainNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let loginRegisterController = LoginController()
-        self.viewControllers = [loginRegisterController]
+        viewControllers = [loginRegisterController]
     }
     
     override var shouldAutorotate: Bool {
